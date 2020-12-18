@@ -1,0 +1,26 @@
+﻿filename,,loop start time (ms),,description
+R00amb01,,0,,cold crash
+R00amb02,,3018,,lurching tremolo uke
+R00amb03,,6037,,echoing tremolo uke
+R01amb01,,0,,cold crash faster
+R01amb02,,0,,warm acoustic
+R01amb03,,0,,echoing tremolo w grain delay on and off
+R02amb01,,21130,,reflecting crashes
+R02amb02,,0,,warm acoustic (identical to R01amb02)
+R02amb03,,0,,warm acoustic II
+R02030405windchimes,,0,,"big windchimes. Note: present in all main rooms past 01 (02-05, NOT 03C or 04B), so feel free to reuse this file. It’s long.)"
+R03amb01,,0,,reflecting crashes II
+R03amb02,,0,,warm acoustic II (identical to R02amb03)
+R03amb03,,36230,,"rounded low notes, bounce echo"
+R03Camb01,,0,,reflecting crashes III
+R03Camb02,,45279,,bending vocoded uke thing
+R03Camb03,,36230,,rounded low notes (identical to R03amb03)
+R04amb01 (does not exist! No perc),,,,
+R04amb02,,0,,put the uke in some kind of amp
+R04amb03,,0,,random stutter patterns on text2 loop
+R04Bamb01,,0,,you are in hell
+R04Bamb02,,0,,slowed down text2 loop
+R04Bamb03,,0,,i am in hell
+R05amb01,(does not exist),,,
+R05amb02,,0,,text2 loop again
+R05amb03,(does not exist - 5 is the most crowded room and heaviest on the nodes!),,,

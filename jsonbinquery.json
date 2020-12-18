@@ -1,0 +1,6 @@
+{
+	"http_method" : "get",
+	"url" : "https://api.jsonbin.io/b/5fbf1abc045eb86f1f875237",
+	"headers" : ["secret-key: $2b$10$OGN6xsGUlrkW9xWK.kqk6uGHeYFPDItkNZej5FICcZ2FxoegICoB6", "Content-Type: application/json"]
+
+}
