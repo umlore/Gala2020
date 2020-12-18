@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 26.0, 85.0, 1484.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1484.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,742 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-952",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6705.333496, 3174.333252, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-953",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6482.333496, 3237.333252, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-954",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6482.333496, 3271.333252, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R08node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-955",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 6705.333496, 3202.333252, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-956",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6758.208496, 3271.333252, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-957",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 6482.333496, 3174.333252, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-958",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 6482.333496, 3202.333252, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-944",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5799.333496, 3157.999756, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-945",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5576.333496, 3220.999756, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-946",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5576.333496, 3254.999756, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R07node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-947",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 5799.333496, 3185.999756, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-948",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5852.208496, 3254.999756, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-950",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 5576.333496, 3157.999756, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-951",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 5576.333496, 3185.999756, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-892",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5198.0, 2735.333252, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-897",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4975.0, 2798.333252, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-898",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4975.0, 2832.333252, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R06node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-899",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 5198.0, 2763.333252, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-900",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5250.875, 2832.333252, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-938",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 4975.0, 2735.333252, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-943",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 4975.0, 2763.333252, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-881",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4414.0, 3240.333252, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-882",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4191.0, 3303.333252, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-884",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4191.0, 3337.333252, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R05node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-887",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 4414.0, 3268.333252, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-888",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4466.875, 3337.333252, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-889",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 4191.0, 3240.333252, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-890",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 4191.0, 3268.333252, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-849",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3684.5, 2677.0, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-851",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3461.5, 2740.0, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-876",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3461.5, 2774.0, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R04node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-877",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 3684.5, 2705.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-878",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3737.375, 2774.0, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-879",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3461.5, 2677.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-880",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 3461.5, 2705.0, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-560",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2993.0, 3295.0, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-566",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2770.0, 3358.0, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-843",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2770.0, 3392.0, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R03node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-845",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 2993.0, 3323.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-846",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3045.875, 3392.0, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-847",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2770.0, 3295.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-848",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 2770.0, 3323.0, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-208",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2436.0, 2827.0, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-210",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2213.0, 2890.0, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-225",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2213.0, 2924.0, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R02node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-227",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 2436.0, 2855.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-314",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2488.875, 2924.0, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-328",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2213.0, 2827.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-359",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 2213.0, 2855.0, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-886",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1667.125, 2523.0, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-885",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1444.125, 2586.0, 292.0, 22.0 ],
+					"style" : "",
+					"text" : "\"D:/OneDrive/Music/Compositions/2020/Gala Patch/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-868",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1444.125, 2620.0, 261.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %smvt3/loop/R01node%02i.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-869",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1667.125, 2551.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-852",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1720.0, 2620.0, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "target $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-850",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1444.125, 2523.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-844",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 1444.125, 2551.0, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "Uzi 4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-842",
 					"maxclass" : "newobj",
@@ -1803,7 +2539,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.07 ],
-					"displayknob" : 2,
+					"hidden" : 1,
 					"id" : "obj-745",
 					"knobpict" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/dogbot.png",
 					"knobsize" : 50.0,
@@ -1825,6 +2561,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-468",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -2846,16 +3583,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-720",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7053.333496, 3019.666748, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1475.333496, 885.666626, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 658.333374, 363.0, 35.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 10,
@@ -3034,19 +3771,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-734",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6605.666992, 3093.333252, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-735",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3105,20 +3829,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 6840.333496, 3271.333252, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-740",
-					"linecount" : 10,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 6605.666992, 3137.333252, 187.0, 146.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R08node01, target 2, ./mvt3/loop/R08node02, target 3, ./mvt3/loop/R08node03, target 4, ./mvt3/loop/R08node04, target 5, ./mvt3/loop/R08node05, target 6, ./mvt3/loop/R08node06, target 7, ./mvt3/loop/R08node07, target 8, ./mvt3/loop/R08node08, target 9, ./mvt3/loop/R08node09, target 10, ./mvt3/loop/R08node10"
 				}
 
 			}
@@ -3215,16 +3925,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-692",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6168.0, 3003.333252, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1197.0, 885.666626, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 593.666626, 363.0, 40.166748 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 3,
@@ -3403,19 +4113,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-706",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 5710.0, 3141.999756, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-707",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3474,20 +4171,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 5962.0, 3254.999756, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-712",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5710.0, 3185.999756, 189.0, 50.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R07node01, target 2, ./mvt3/loop/R07node02, target 3, ./mvt3/loop/R07node03"
 				}
 
 			}
@@ -3584,16 +4267,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-664",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5542.333496, 2580.666748, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1475.333496, 857.833374, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 535.833374, 363.0, 37.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 7,
@@ -3772,19 +4455,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-678",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 5084.333496, 2719.333252, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-679",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3843,20 +4513,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 5336.333496, 2832.333252, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-684",
-					"linecount" : 7,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5084.333496, 2763.333252, 189.0, 105.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R06node01, target 2, ./mvt3/loop/R06node02, target 3, ./mvt3/loop/R06node03, target 4, ./mvt3/loop/R06node04, target 5, ./mvt3/loop/R06node05, target 6, ./mvt3/loop/R06node06, target 7, ./mvt3/loop/R06node07"
 				}
 
 			}
@@ -3926,19 +4582,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-634",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4861.5, 2846.333252, 159.0, 48.0 ],
-					"style" : "",
-					"text" : "define durations to stand in each node before exit is unlocked"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-635",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -3953,16 +4596,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-636",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4758.0, 3085.666748, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1198.333496, 857.833374, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 484.833374, 363.0, 33.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
@@ -4141,19 +4784,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-650",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4300.0, 3224.333252, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-651",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4212,20 +4842,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4552.0, 3337.333252, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-656",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4300.0, 3268.333252, 189.0, 64.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R05node01, target 2, ./mvt3/loop/R05node02, target 3, ./mvt3/loop/R05node03, target 4, ./mvt3/loop/R05node04"
 				}
 
 			}
@@ -4322,16 +4938,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-608",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4139.0, 2645.333496, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1475.333496, 835.166748, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 420.083374, 363.0, 29.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 6,
@@ -4510,19 +5126,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-622",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 3681.0, 2784.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-623",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4581,20 +5184,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 3933.0, 2897.0, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-628",
-					"linecount" : 6,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3681.0, 2828.0, 189.0, 91.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R04node01, target 2, ./mvt3/loop/R04node02, target 3, ./mvt3/loop/R04node03, target 4, ./mvt3/loop/R04node04, target 5, ./mvt3/loop/R04node05, target 6, ./mvt3/loop/R04node06"
 				}
 
 			}
@@ -4691,16 +5280,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-578",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3359.5, 3140.333496, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1198.333496, 835.166748, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 350.833374, 363.0, 33.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 6,
@@ -4879,19 +5468,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-593",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2901.5, 3279.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-594",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4950,20 +5526,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 3153.5, 3392.0, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-599",
-					"linecount" : 6,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2901.5, 3323.0, 187.0, 91.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R03node01, target 2, ./mvt3/loop/R03node02, target 3, ./mvt3/loop/R03node03, target 4, ./mvt3/loop/R03node04, target 5, ./mvt3/loop/R03node05, target 6, ./mvt3/loop/R03node06"
 				}
 
 			}
@@ -5060,16 +5622,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-520",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2787.0, 2672.333496, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1475.333496, 818.416748, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 275.416748, 363.0, 45.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 7,
@@ -5248,19 +5810,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-560",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2329.0, 2811.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-561",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5324,20 +5873,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-566",
-					"linecount" : 7,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2329.0, 2855.0, 189.0, 105.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R02node01, target 2, ./mvt3/loop/R02node02, target 3, ./mvt3/loop/R02node03, target 4, ./mvt3/loop/R02node04, target 5, ./mvt3/loop/R02node05, target 6, ./mvt3/loop/R02node06, target 7, ./mvt3/loop/R02node07"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-567",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -5358,7 +5893,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2066.0, 2332.0, 192.0, 22.0 ],
 					"style" : "",
-					"text" : "0 0 0 0"
+					"text" : "1.65 3.6 1.55 0.56"
 				}
 
 			}
@@ -6254,13 +6789,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-490",
-					"linecount" : 12,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1159.0, 321.0, 364.0, 172.0 ],
+					"patching_rect" : [ 1159.0, 321.0, 498.0, 158.0 ],
 					"style" : "",
-					"text" : "todo: room ambiences\nalign mvt3 doors and stuff\nbells\nmvt2 end triggers mvt3\nmvt3 end\nmvt3 end triggers mvt4\nadd secret commands \n\nfix the room progress bug\ngate commands so people cant do things early\n\ntest streamign audio using mac laptop\n"
+					"text" : "todo: \nmove nodes on top of all the backgrouns milner sends\nbells\nmvt2 end triggers mvt3\nmvt3 ending moves to applause\nadd secret commands \n\nremove room progress & replace with timer + \"GO ->\" and gate being able to type onward\ngate commands so people cant do things early (especially clap & derive)\n\nreformat stuff for mac display since i'll be streaming from there to zoom"
 				}
 
 			}
@@ -7015,16 +7550,16 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"candycane" : 8,
 					"id" : "obj-405",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2009.0, 2368.333496, 275.0, 102.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1198.333496, 818.416748, 172.0, 17.5 ],
+					"presentation_rect" : [ 1165.333496, 229.833374, 363.0, 26.083374 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
@@ -7867,7 +8402,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.07 ],
-					"hidden" : 1,
+					"displayknob" : 2,
 					"id" : "obj-197",
 					"knobpict" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/dogbot.png",
 					"knobsize" : 50.0,
@@ -8172,7 +8707,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1574.0, 3778.0, 136.0, 22.0 ],
 					"style" : "",
-					"text" : "9 0.04 0.5"
+					"text" : "3 0.578 0.682"
 				}
 
 			}
@@ -8278,7 +8813,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1146.0, 2223.5, 28.0, 36.0 ],
 					"style" : "",
-					"text" : "-0.02"
+					"text" : "-0.03"
 				}
 
 			}
@@ -8306,7 +8841,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1079.0, 2223.5, 24.0, 36.0 ],
 					"style" : "",
-					"text" : "0.02"
+					"text" : "0.03"
 				}
 
 			}
@@ -8363,7 +8898,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 957.0, 2223.5, 34.0, 36.0 ],
 					"style" : "",
-					"text" : "-0.018"
+					"text" : "-0.02"
 				}
 
 			}
@@ -8391,7 +8926,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 890.0, 2223.5, 30.0, 36.0 ],
 					"style" : "",
-					"text" : "0.018"
+					"text" : "0.02"
 				}
 
 			}
@@ -8476,19 +9011,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-328",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1551.0, 2507.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-323",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -8547,20 +9069,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1803.0, 2620.0, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-314",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1551.0, 2551.0, 189.0, 64.0 ],
-					"style" : "",
-					"text" : "target 1, ./mvt3/loop/R01node01, target 2, ./mvt3/loop/R01node02, target 3, ./mvt3/loop/R01node03, target 4, ./mvt3/loop/R01node04"
 				}
 
 			}
@@ -12143,7 +12651,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1922.0, 1845.0, 681.0, 235.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room01template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room01FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 423.083496, 298.666626, 681.0, 235.0 ]
 				}
@@ -12159,7 +12667,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 2705.0, 1845.0, 500.0, 498.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room02template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room02FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 522.0, 179.833374, 500.0, 498.0 ]
 				}
@@ -12168,14 +12676,13 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"hidden" : 1,
 					"id" : "obj-380",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3262.0, 1835.0, 497.0, 520.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room03template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room03FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 524.0, 173.333374, 497.0, 520.0 ]
 				}
@@ -12191,7 +12698,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3834.0, 1835.0, 580.0, 590.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room04template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room04FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 482.375, 313.166748, 580.0, 590.0 ]
 				}
@@ -12207,7 +12714,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 4533.0, 1835.0, 485.0, 454.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room05template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room05FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 423.083496, 449.166748, 485.0, 454.0 ]
 				}
@@ -12223,7 +12730,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 5146.666992, 1835.0, 740.0, 507.333344 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room06template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room06FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 418.125, 149.000031, 740.0, 507.333344 ]
 				}
@@ -12239,7 +12746,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 6023.0, 1835.0, 415.0, 311.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room07template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room07FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 581.125, 64.333374, 415.0, 311.0 ]
 				}
@@ -12255,7 +12762,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 6532.0, 1835.0, 723.0, 788.0 ],
-					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room08template.png",
+					"pic" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images/room08FINAL.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 423.083496, 16.0, 723.0, 788.0 ]
 				}
@@ -13131,6 +13638,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-227", 0 ],
+					"source" : [ "obj-208", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-207", 0 ],
 					"source" : [ "obj-209", 0 ]
 				}
@@ -13141,6 +13655,13 @@
 					"destination" : [ "obj-50", 0 ],
 					"midpoints" : [ 2541.0, 743.0, 2193.25, 743.0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-225", 0 ],
+					"source" : [ "obj-210", 0 ]
 				}
 
 			}
@@ -13331,8 +13852,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-567", 0 ],
+					"source" : [ "obj-225", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-237", 0 ],
 					"source" : [ "obj-226", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-210", 1 ],
+					"source" : [ "obj-227", 1 ]
 				}
 
 			}
@@ -14157,7 +14692,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-170", 0 ],
+					"destination" : [ "obj-567", 0 ],
 					"source" : [ "obj-314", 0 ]
 				}
 
@@ -14250,7 +14785,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-314", 0 ],
+					"destination" : [ "obj-359", 0 ],
 					"source" : [ "obj-328", 0 ]
 				}
 
@@ -14552,6 +15087,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-356", 0 ],
 					"source" : [ "obj-358", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
+					"order" : 2,
+					"source" : [ "obj-359", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-225", 1 ],
+					"order" : 1,
+					"source" : [ "obj-359", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-314", 0 ],
+					"order" : 0,
+					"source" : [ "obj-359", 2 ]
 				}
 
 			}
@@ -16397,7 +16956,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-566", 0 ],
+					"destination" : [ "obj-845", 0 ],
 					"source" : [ "obj-560", 0 ]
 				}
 
@@ -16441,7 +17000,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-567", 0 ],
+					"destination" : [ "obj-843", 0 ],
 					"source" : [ "obj-566", 0 ]
 				}
 
@@ -16795,13 +17354,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-599", 0 ],
-					"source" : [ "obj-593", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-596", 0 ],
 					"source" : [ "obj-595", 0 ]
 				}
@@ -16834,13 +17386,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-600", 1 ],
 					"source" : [ "obj-598", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-600", 0 ],
-					"source" : [ "obj-599", 0 ]
 				}
 
 			}
@@ -17022,13 +17567,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-628", 0 ],
-					"source" : [ "obj-622", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-625", 0 ],
 					"source" : [ "obj-624", 0 ]
 				}
@@ -17061,13 +17599,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-629", 1 ],
 					"source" : [ "obj-627", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-629", 0 ],
-					"source" : [ "obj-628", 0 ]
 				}
 
 			}
@@ -17219,13 +17750,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-656", 0 ],
-					"source" : [ "obj-650", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-653", 0 ],
 					"source" : [ "obj-652", 0 ]
 				}
@@ -17258,13 +17782,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-657", 1 ],
 					"source" : [ "obj-655", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-657", 0 ],
-					"source" : [ "obj-656", 0 ]
 				}
 
 			}
@@ -17409,13 +17926,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-684", 0 ],
-					"source" : [ "obj-678", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-68", 0 ]
 				}
@@ -17455,13 +17965,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-685", 1 ],
 					"source" : [ "obj-683", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-685", 0 ],
-					"source" : [ "obj-684", 0 ]
 				}
 
 			}
@@ -17636,13 +18139,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-712", 0 ],
-					"source" : [ "obj-706", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-709", 0 ],
 					"source" : [ "obj-708", 0 ]
 				}
@@ -17682,13 +18178,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-713", 1 ],
 					"source" : [ "obj-711", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-713", 0 ],
-					"source" : [ "obj-712", 0 ]
 				}
 
 			}
@@ -17833,13 +18322,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-740", 0 ],
-					"source" : [ "obj-734", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-737", 0 ],
 					"source" : [ "obj-736", 0 ]
 				}
@@ -17879,13 +18361,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-741", 0 ],
-					"source" : [ "obj-740", 0 ]
 				}
 
 			}
@@ -18545,8 +19020,112 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-600", 0 ],
+					"source" : [ "obj-843", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-852", 0 ],
+					"order" : 0,
+					"source" : [ "obj-844", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-868", 1 ],
+					"order" : 1,
+					"source" : [ "obj-844", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-885", 0 ],
+					"order" : 2,
+					"source" : [ "obj-844", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-566", 1 ],
+					"source" : [ "obj-845", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-600", 0 ],
+					"source" : [ "obj-846", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-848", 0 ],
+					"source" : [ "obj-847", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-566", 0 ],
+					"order" : 2,
+					"source" : [ "obj-848", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-843", 1 ],
+					"order" : 1,
+					"source" : [ "obj-848", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-846", 0 ],
+					"order" : 0,
+					"source" : [ "obj-848", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-877", 0 ],
+					"source" : [ "obj-849", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-81", 3 ],
 					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-844", 0 ],
+					"source" : [ "obj-850", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-876", 0 ],
+					"source" : [ "obj-851", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"source" : [ "obj-852", 0 ]
 				}
 
 			}
@@ -18782,6 +19361,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"source" : [ "obj-868", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-885", 1 ],
+					"source" : [ "obj-869", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-81", 2 ],
 					"source" : [ "obj-87", 0 ]
 				}
@@ -18934,6 +19527,72 @@
 					"destination" : [ "obj-927", 0 ],
 					"midpoints" : [ 4605.719727, 4311.0, 4503.719727, 4311.0 ],
 					"source" : [ "obj-875", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-629", 0 ],
+					"source" : [ "obj-876", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-851", 1 ],
+					"source" : [ "obj-877", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-629", 0 ],
+					"source" : [ "obj-878", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-880", 0 ],
+					"source" : [ "obj-879", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-851", 0 ],
+					"order" : 2,
+					"source" : [ "obj-880", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-876", 1 ],
+					"order" : 1,
+					"source" : [ "obj-880", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-878", 0 ],
+					"order" : 0,
+					"source" : [ "obj-880", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-887", 0 ],
+					"source" : [ "obj-881", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-884", 0 ],
+					"source" : [ "obj-882", 0 ]
 				}
 
 			}
@@ -19115,8 +19774,81 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-657", 0 ],
+					"source" : [ "obj-884", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-868", 0 ],
+					"source" : [ "obj-885", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-869", 0 ],
+					"source" : [ "obj-886", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-882", 1 ],
+					"source" : [ "obj-887", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-657", 0 ],
+					"source" : [ "obj-888", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-890", 0 ],
+					"source" : [ "obj-889", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-882", 0 ],
+					"order" : 2,
+					"source" : [ "obj-890", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-884", 1 ],
+					"order" : 1,
+					"source" : [ "obj-890", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-888", 0 ],
+					"order" : 0,
+					"source" : [ "obj-890", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-901", 0 ],
 					"source" : [ "obj-891", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-899", 0 ],
+					"source" : [ "obj-892", 0 ]
 				}
 
 			}
@@ -19159,8 +19891,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-898", 0 ],
+					"source" : [ "obj-897", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-685", 0 ],
+					"source" : [ "obj-898", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-897", 1 ],
+					"source" : [ "obj-899", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-685", 0 ],
+					"source" : [ "obj-900", 0 ]
 				}
 
 			}
@@ -19474,6 +20234,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-943", 0 ],
+					"source" : [ "obj-938", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-883", 0 ],
 					"source" : [ "obj-939", 0 ]
 				}
@@ -19523,6 +20290,65 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-897", 0 ],
+					"order" : 2,
+					"source" : [ "obj-943", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-898", 1 ],
+					"order" : 1,
+					"source" : [ "obj-943", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-900", 0 ],
+					"order" : 0,
+					"source" : [ "obj-943", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-947", 0 ],
+					"source" : [ "obj-944", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-946", 0 ],
+					"source" : [ "obj-945", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-713", 0 ],
+					"source" : [ "obj-946", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-945", 1 ],
+					"source" : [ "obj-947", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-713", 0 ],
+					"source" : [ "obj-948", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-939", 0 ],
 					"source" : [ "obj-949", 0 ]
 				}
@@ -19532,6 +20358,103 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 1 ],
 					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-951", 0 ],
+					"source" : [ "obj-950", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-945", 0 ],
+					"order" : 2,
+					"source" : [ "obj-951", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-946", 1 ],
+					"order" : 1,
+					"source" : [ "obj-951", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-948", 0 ],
+					"order" : 0,
+					"source" : [ "obj-951", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-955", 0 ],
+					"source" : [ "obj-952", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-954", 0 ],
+					"source" : [ "obj-953", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-741", 0 ],
+					"source" : [ "obj-954", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-953", 1 ],
+					"source" : [ "obj-955", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-741", 0 ],
+					"source" : [ "obj-956", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-958", 0 ],
+					"source" : [ "obj-957", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-953", 0 ],
+					"order" : 2,
+					"source" : [ "obj-958", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-954", 1 ],
+					"order" : 1,
+					"source" : [ "obj-958", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-956", 0 ],
+					"order" : 0,
+					"source" : [ "obj-958", 2 ]
 				}
 
 			}
@@ -19567,56 +20490,21 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "room08template.png",
+				"name" : "room07FINAL.png",
 				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
 				"patcherrelativepath" : "./mvt3/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "room07template.png",
+				"name" : "room02FINAL.png",
 				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
 				"patcherrelativepath" : "./mvt3/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "room06template.png",
-				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
-				"patcherrelativepath" : "./mvt3/images",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "room05template.png",
-				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
-				"patcherrelativepath" : "./mvt3/images",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "room04template.png",
-				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
-				"patcherrelativepath" : "./mvt3/images",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "room03template.png",
-				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
-				"patcherrelativepath" : "./mvt3/images",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "room02template.png",
-				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
-				"patcherrelativepath" : "./mvt3/images",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "room01template.png",
+				"name" : "room01FINAL.png",
 				"bootpath" : "D:/OneDrive/Music/Compositions/2020/Gala Patch/mvt3/images",
 				"patcherrelativepath" : "./mvt3/images",
 				"type" : "PNG ",

@@ -96,9 +96,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 139.0, 158.0, 22.0 ],
+					"patching_rect" : [ 35.0, 139.0, 166.0, 22.0 ],
 					"style" : "",
-					"text" : "0. 0. 0. 0."
+					"text" : "0. 0. 0. 0. 0.236265 0.776781"
 				}
 
 			}
@@ -109,9 +109,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.25, 25.0, 79.0, 22.0 ],
+					"patching_rect" : [ 376.25, 25.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 20"
+					"text" : "loadmess 500"
 				}
 
 			}
