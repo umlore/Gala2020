@@ -19,7 +19,13 @@ function includes(l, val) {
 	return inc;	
 }
 
+function sendout(command, timestamp, username) {
+	outlet(0, command, timestamp, username, command);
+}
+
 function body() {
+	var timeout = 0;
+	
 	var msgs = JSON.parse(arguments[0]);
 	
 	//post("GOT HERE " + count + "\n");
@@ -43,12 +49,25 @@ function body() {
 			if (includes(checksums, checksum)) { continue; }
 			
 			checksums.push(checksum);
-			outlet(0, command, timestamp, username, command);
+			
+			//send thing out the outlet increase delay
+			var args = [command, timestamp, username];
+			var outtask = new Task(sendout, this, args);
+			outtask.schedule(timeout);
+			timeout = timeout + 100;
+			
+			
+			//outlet(0, command, timestamp, username, command);
 		} else {
 			checksums = [checksum];
 			latesttime = timestamp;
 			
-			outlet(0, command, timestamp, username, command);
+			//send thing out the outlet increase delay
+			var args = [command, timestamp, username];
+			var outtask = new Task(sendout, this, args);
+			outtask.schedule(timeout);
+			timeout = timeout + 100;
+			//outlet(0, command, timestamp, username, command);
 		}
 	}
 }
